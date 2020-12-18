@@ -1,0 +1,8 @@
+[submodule "call/raffer/string"]
+	path = call/raffer/string
+	url = https://github.com/PaulRaffer/raffer_cpplib-string
+	branch = cpp17
+[submodule "call/raffer/system"]
+	path = call/raffer/system
+	url = https://github.com/PaulRaffer/raffer_cpplib-system
+	branch = cpp11
