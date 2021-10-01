@@ -31,7 +31,7 @@ auto call(
 		auto ret = std::get<std::basic_string<Char>>(this_);
 	
 		for (auto fg = cbegin(functions); fg != cend(functions); ++fg)
-			for (auto func_found = true; is_up(raffer::key::esc) && func_found; )
+			for (auto func_found = true; is_up(::gpl::key::esc) && func_found; )
 			{
 				auto func = function<Char>{};
 				auto next_match = basic_smatch<Char>{};
