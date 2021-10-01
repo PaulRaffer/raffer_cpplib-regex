@@ -11,6 +11,8 @@
 
 #include "raffer/system/system.hpp"
 
+#include <limits>
+
 
 namespace raffer
 {
